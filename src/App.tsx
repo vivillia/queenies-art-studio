@@ -1,15 +1,17 @@
-import './App.css'
-import logo from '../public/images/logo.jpg'
+// App.tsx
+import React from 'react';
+import './App.css'; // Main CSS file
+import Header from './components/header'; // Import the Header component
 
-function App() {
-
+const App: React.FC = () => {
   return (
-    <>
-      <div>
-         <img src={logo}/>
-      </div>
-    </>
-  )
-}
+    <div className="App">
+      <Header /> {/* Place the Header at the top */}
+      <main>
+        
+      </main>
+    </div>
+  );
+};
 
-export default App
+export default App;
