@@ -1,15 +1,5 @@
 /* Header.css */
-.header {
-    background-color: hsl(201, 52%, 55%); /* Dark background */
-    padding: 20px; /* Space around the content */
-    color: white; /* Text color */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space out items */
-    align-items: center; /* Center items vertically */
-    position:relative; /* Make the header stick to the top on scroll */
-    top: 0; /* Align it to the top */
-    z-index: 1000; /* Ensure it stays above other content */
-  }
+
   
   .header-title {
     margin: 0; /* Remove default margin */

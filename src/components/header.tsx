@@ -1,15 +1,19 @@
 // Header.tsx
-import React from 'react';
-import './header.css'
+import React from "react";
+import "./header.css";
 
 const Header: React.FC = () => {
   return (
-    <header className="header">
-      <h1 className="header-title">Queenie's Art Studio</h1>
+
+    <header style={{ textAlign: 'center' }} className="bg-blue-100 ">
+      <div className="flex items-center"> 
+      <img src="/images/SmallLogo.png" style={{width: '80px', height: '55px'}}  alt="logo" className="w-20 h-auto mr-4"/>
+      </div>
+      
       <nav className="header-nav">
         <ul>
-          <li>Home</li>
           <li>Gallery</li>
+          <li>Shop</li>
           <li>Contact</li>
         </ul>
       </nav>
