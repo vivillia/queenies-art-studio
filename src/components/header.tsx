@@ -10,11 +10,17 @@ const Header: React.FC = () => {
       <img src="/images/SmallLogo.png" style={{width: '80px', height: '55px'}}  alt="logo" className="w-20 h-auto mr-4"/>
       </div>
       
-      <nav className="header-nav">
+      <nav className="flex header-nav flex-row">
         <ul>
-          <li>Gallery</li>
-          <li>Shop</li>
-          <li>Contact</li>
+          <li>
+            <a href="/Gallery">Gallery</a> 
+          </li>
+          <li>
+            <a href="/Shop">Shop</a>
+          </li>
+          <li>
+          <a href="/Contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
