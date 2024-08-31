@@ -1,8 +1,8 @@
 // App.tsx
 import React from 'react';
 import './App.css'; // Main CSS file
-import Announcement from './components/announcement';
-import Logo from './components/logo';
+import Announcement from './components/Announcement';
+import Logo from './components/Logo';
 import PhotoCarousel from './components/PhotoCarousel';
 
 const App: React.FC = () => {
