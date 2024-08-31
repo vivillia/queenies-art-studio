@@ -1,13 +1,11 @@
 // Home.tsx
 import React from 'react';
-import Header from '../components/header'; // Adjust the path if needed
 import './Home.css'; // Optional: You can add your own CSS for styling
 
 
 const Home: React.FC = () => {
   return (
     <div className="home">
-      <Header /> {/* Include the Header component here */}
       <h2>Welcome to My React App!</h2>
       <p>This is the home page where you can find the latest updates and features.</p>
       <section className="features">
