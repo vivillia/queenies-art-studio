@@ -33,8 +33,8 @@ const PhotoCarousel: React.FC<PhotoCarouselProps> = ({ images, interval }) => {
             </div>
           ))}
         </div>
-        <button className="prev" onClick={prev} dangerouslySetInnerHTML={{ __html: '&lt;' }} />
-        <button className="next" onClick={next} dangerouslySetInnerHTML={{ __html: '&gt;' }} />
+        <button className="prev" onClick={prev}>&lt;</button>
+        <button className="next" onClick={next}>&gt;</button>
       </div>
     </div>
   );

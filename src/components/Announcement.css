@@ -12,6 +12,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .announcement-inner {
@@ -29,21 +30,6 @@
     border-radius: 15px;
     color: rgb(255, 255, 255);
     text-shadow:2px 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #79b7d6;
-    color: #fff;
-    border: none;
-    padding: 18px;
-    cursor: pointer;
-    z-index: 10;
-    font-size: larger;
-    border-radius: 15px;
-
 }
 
 .prev {

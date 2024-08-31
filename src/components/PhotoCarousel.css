@@ -10,6 +10,8 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+    border-radius: 15px;
+    outline: none;
   }
   
   .photo-carousel-inner {
@@ -30,7 +32,6 @@
     height: 100%;
     object-fit: cover; /* Crop the image to fit the container */
     display: block;
-    border-radius: 15px;
   }
   
  /* photoCarousel.css */
@@ -46,10 +47,10 @@
     border-radius: 15px;
     cursor: pointer;
     z-index: 1;
-    transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+    transition: opacity 0.3s ease, border-radius 0.3s ease; /* Smooth transition for opacity and border-radius */
+    border: none; /* Ensure no border that might affect appearance */
   }
   
   .prev:hover, .next:hover {
     opacity: 0.7; /* Adjust opacity value as desired */
   }
-  
