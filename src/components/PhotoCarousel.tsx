@@ -1,6 +1,6 @@
 // PhotoCarousel.tsx
 import React, { useState, useEffect } from 'react';
-import './photoCarousel.css';
+import './PhotoCarousel.css';
 
 interface PhotoCarouselProps {
   images: { src: string }[];
