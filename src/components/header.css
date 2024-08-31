@@ -1,10 +1,4 @@
 /* Header.css */
-
-  
-  .header-title {
-    margin: 0; /* Remove default margin */
-    font-size: 24px; /* Title size */
-  }
   
   .header-nav ul {
     display: flex;
