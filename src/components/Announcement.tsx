@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./announcement.css";
+import "./Announcement.css";
 
 // Define the interface for the component props
 interface AnnouncementProps {
