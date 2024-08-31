@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/header'; // Adjust the path if needed
 import './Home.css'; // Optional: You can add your own CSS for styling
 
+
 const Home: React.FC = () => {
   return (
     <div className="home">

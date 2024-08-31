@@ -14,7 +14,6 @@
     margin: 0; /* Remove margin */
     display: flex; /* Use flexbox for horizontal layout */
     gap: 10em;
-    background-color: rgb(113, 212, 235);
     padding: 13px;
   }
   

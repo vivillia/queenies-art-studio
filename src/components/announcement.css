@@ -1,0 +1,48 @@
+/* TextCarousel.css */
+
+.announcement-container {
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    position: relative;
+}
+
+.announcement {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.announcement-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.announcement-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
