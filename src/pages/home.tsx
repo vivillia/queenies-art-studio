@@ -1,25 +1,30 @@
 // Home.tsx
 import React from 'react';
 import './Home.css'; // Optional: You can add your own CSS for styling
+import Logo from '../components/Logo';
+import Announcement from '../components/Announcement';
+import PhotoCarousel from '../components/PhotoCarousel';
 
+const interval = 8888; // Interval in milliseconds 
+
+const items = [
+  'Welcome to Queenie\'s Art Studio!', 
+  'It\'s back to school season!', 
+  'This website is currently a work in progress, stay tuned for more!'
+];
+
+const images = [
+  { src: "/images/ExpertArtwork1.png" },
+  { src: "/images/JuniorArtwork1.png" },
+  { src: "/images/JuniorArtwork3.png" }
+];
 
 const Home: React.FC = () => {
   return (
     <div className="home">
-      <h2>Welcome to My React App!</h2>
-      <p>This is the home page where you can find the latest updates and features.</p>
-      <section className="features">
-        <h3>Features:</h3>
-        <ul>
-          <li>Feature 1: Description of feature 1</li>
-          <li>Feature 2: Description of feature 2</li>
-          <li>Feature 3: Description of feature 3</li>
-        </ul>
-      </section>
-      <section className="call-to-action">
-        <h3>Get Started!</h3>
-        <p>Explore our app to learn more about what we offer.</p>
-      </section>
+      <Logo/>
+      <Announcement items={items} interval={interval} />
+      <PhotoCarousel images={images} interval={interval} />
     </div>
   );
 };
