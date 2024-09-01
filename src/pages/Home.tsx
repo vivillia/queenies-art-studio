@@ -1,6 +1,6 @@
 // Home.tsx
 import React from 'react';
-import './Home.css'; // Optional: You can add your own CSS for styling
+import './Home.css'; 
 import Logo from '../components/Logo';
 import Announcement from '../components/Announcement';
 import PhotoCarousel from '../components/PhotoCarousel';

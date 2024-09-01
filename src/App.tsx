@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'; // Main CSS file
-import Home from './pages/home';
+import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 
 const App: React.FC = () => {
