@@ -14,9 +14,9 @@ interface GalleryProps {
 }
 
 const artwork: GalleryItem[] = [
-  { src: 'path/to/image1.jpg', alt: 'Artwork 1' },
-  { src: 'path/to/image2.jpg', alt: 'Artwork 2' },
-  { src: 'path/to/image3.jpg', alt: 'Artwork 3' },
+  { src: '/images/ExpertArtwork2.png', alt: 'Artwork 1' },
+  { src: '/images/JuniorArtwork4.png', alt: 'Artwork 2' },
+  { src: '/images/ExpertArtwork3.png', alt: 'Artwork 3' },
 ];
 
 const Gallery: React.FC<GalleryProps> = () => {
